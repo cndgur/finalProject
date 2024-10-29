@@ -1,0 +1,53 @@
+body{
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+strong{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.resume_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.resume_name{
+    box-sizing: border-box;
+    border: 2px solid #4e21a8;
+    border-radius: 20px;
+    border-color: #4e21a8;
+    box-shadow: none;
+    width: 600px;
+    height: 45px;
+    padding-left: 20px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: bold;
+}
+
+.resume_name:focus{
+    outline: none;
+}
+
+.resume_name::placeholder{
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.basicInfo  p {
+    margin: 0;
+}
+
+.name_info{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+fieldset {
+    border: 1px solid #ccc !important; /* !important를 사용하여 우선순위 높이기 */
+
+
+}
+
+legend {
+}
