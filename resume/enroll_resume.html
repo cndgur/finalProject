@@ -18,15 +18,70 @@
             <input type="text" class="resume_name" placeholder="이력서 제목(미입력 시 기본 제목으로 자동 저장됩니다.)">
         </div>
         <div class="basicInfo">
-            <fieldset>
-                <legend>기본정보</legend>
-                    <div class="name_info">
-                        <label for="">이름 *</label>
-                        <input type="text" value="닉네임을 등록해주세요.">
+            <fieldset class="basic_Info">
+                <legend class="basic_info">기본정보</legend>
+                    <div class="basic_total">
+                        <div class="name_info">
+                            <fieldset class="name">
+                                <legend id="name">이름 *</legend>
+                                <input type="text" name="nickName" placeholder="이름을 등록해주세요.">
+                            </fieldset>
+                            <div class="gender_info">
+                                <fieldset class="Gender">
+                                    <legend id="gender">성별</legend>
+                                    <select name="gender" class="gender" name="gender">
+                                        <option value="1" selected="selected" id="man">남자</option>
+                                        <option value="2" id="woman">여자</option>
+                                    </select>
+                                </fieldset>
+                            </div>
+                            <div class="birth">
+                                <fieldset class="Birth">
+                                    <legend id="birth">생년월일</legend>
+                                    <input type="date" name="birth">
+                                </fieldset>
+                            </div>
+                            <div class="profile_pic">
+                                <button type="button" class="picture_add">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/11789/11789135.png" alt="" style="width: 100px; height: 100px;">                                    
+                                    <label for="">사진추가</label>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="phone">
+                            <fieldset class="Phone">
+                                <legend id="phone">휴대폰</legend>
+                                <input type="text" name="phone" placeholder="'-'없이 입력해주세요">
+                            </fieldset>
+                        </div>
+                        <div class="email">
+                            <fieldset class="Email">
+                                <legend id="email">이메일</legend>
+                                <input type="email" name="email">
+                            </fieldset>
+                            <button class="email_check">인증요청</button>
+                        </div>
+                        <div class="address">
+                            <fieldset class="Address">
+                                <legend id="address">주소</legend>
+                                <input type="text" name="address">
+                            </fieldset>
+                        </div>
+                        <div class="detail_ad">
+                            <fieldset class="Detail_ad">
+                                <legend id="detail_ad">상세주소</legend>
+                                <input type="text" name="detail_ad">
+                            </fieldset>
+                        </div>
+                        <div class="save">
+                            <button>저장</button>
+                        </div>
                     </div>
-                    <div class="gender_info">
-                        
-                    </div>
+            </fieldset>
+        </div>
+        <div class="ed">
+            <fieldset class="Education_Lv">
+                <legend>학력</legend>
             </fieldset>
         </div>
     </div>

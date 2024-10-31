@@ -1,5 +1,6 @@
 body{
     font-family: "Noto Sans KR", sans-serif;
+    margin: 0 10% 0 10%;
 }
 
 strong{
@@ -10,7 +11,8 @@ strong{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px
 }
 .resume_name{
     box-sizing: border-box;
@@ -21,6 +23,7 @@ strong{
     width: 600px;
     height: 45px;
     padding-left: 20px;
+    padding-top: 10px;
     font-family: "Noto Sans KR", sans-serif;
     font-weight: bold;
 }
@@ -37,17 +40,162 @@ strong{
     margin: 0;
 }
 
-.name_info{
+.basicInfo{
+    width: 1200px;
+}
+
+.name_info, .phone, .email, .address, .detail_ad{
     display: flex;
     text-align: center;
     align-items: center;
 }
 
-fieldset {
-    border: 1px solid #ccc !important; /* !important를 사용하여 우선순위 높이기 */
-
-
+.basic_Info {
+    border: none;
+    box-shadow: 0 4px 16px 0 rgba(17, 42, 128, 0.08);
+    border-top: 2px solid #4e21a8;
+    height: 670px;
+    border-radius: 5px;
 }
 
-legend {
+input:focus{
+    outline: none;
+}
+
+.basic_info{
+    font-size: 30px;
+}
+
+label{
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+input, #gender{
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: none;
+    height: 33px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.gender_info, .birth{
+    padding-left: 20px;
+}
+
+.email, .address, .detail_ad{
+    padding-top: 40px;
+}
+
+.basic_total{
+    margin: 20px;
+    padding-left: 50px;
+}
+
+.email_check{
+    box-sizing: border-box;
+    border: none;
+    margin-left: 20px;
+    border-radius: 15px;
+    height: 33px;
+    width: 80px;
+    background-color: #9c74ee;
+    color: white;
+    cursor: pointer;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.picture_add{
+    position: relative;
+    margin-left: 100px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    top: 15px
+}
+
+.picture_add img{
+    position: relative;
+    right: 8px;
+    bottom: 3px;
+}
+
+.picture_add label{
+    position: relative;
+    font-size: 19px;
+    left: 4px;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.save{
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+.save button{
+    box-sizing: border-box;
+    border: 1px solid #9c74ee;
+    background-color: #9c74ee;
+    color: white;
+    border-radius: 15px;
+    width: 100px;
+    font-family: "Noto Sans KR", sans-serif;
+    height: 33px;
+    cursor: pointer;
+}
+.name, .Birth, .Phone, .Email, .Address, .Detail_ad{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid #9c74ee;
+    height: 60px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+#name, #birth, #phone, #email, #address, #detail_ad{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.Gender{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid #9c74ee;
+    height: 65px;
+    width: 70px;
+    border-radius: 5px;
+}
+
+#gender{
+    background-color: transparent;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    bottom: 0;
+}
+
+.gender{
+    position: relative;
+    box-sizing: border-box;
+    border: none;
+    bottom: 5px;
+    left: 11px;
+}
+
+.ed{
+    width: 1200px;
+}
+
+.Education_Lv {
+    border: none;
+    box-shadow: 0 4px 16px 0 rgba(17, 42, 128, 0.08);
+    border-top: 2px solid #4e21a8;
+    height: 670px;
+    border-radius: 5px;
 }
