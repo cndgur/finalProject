@@ -66,18 +66,13 @@ input:focus{
     font-size: 30px;
 }
 
-label{
-    font-size: 20px;
-    padding-right: 10px;
-}
-
 input, #gender{
     border-radius: 10px;
     box-sizing: border-box;
     border: none;
     height: 33px;
     padding-left: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 6px;
 }
 
 .gender_info, .birth{
@@ -97,13 +92,15 @@ input, #gender{
     box-sizing: border-box;
     border: none;
     margin-left: 20px;
-    border-radius: 15px;
-    height: 33px;
+    border-radius: 5px;
+    height: 50px;
     width: 80px;
     background-color: #9c74ee;
     color: white;
     cursor: pointer;
     font-family: "Noto Sans KR", sans-serif;
+    position: relative;
+    top: 5px;
 }
 
 .picture_add{
@@ -130,7 +127,7 @@ input, #gender{
 }
 
 .save{
-    margin-left: 500px;
+    margin-left: 473px;
     margin-top: 50px;
 }
 
@@ -139,10 +136,10 @@ input, #gender{
     border: 1px solid #9c74ee;
     background-color: #9c74ee;
     color: white;
-    border-radius: 15px;
+    border-radius: 5px;
     width: 100px;
     font-family: "Noto Sans KR", sans-serif;
-    height: 33px;
+    height: 50px;
     cursor: pointer;
 }
 .name, .Birth, .Phone, .Email, .Address, .Detail_ad{
@@ -196,6 +193,51 @@ input, #gender{
     border: none;
     box-shadow: 0 4px 16px 0 rgba(17, 42, 128, 0.08);
     border-top: 2px solid #4e21a8;
-    height: 670px;
+    height: 251px;
     border-radius: 5px;
+}
+
+#Education_Lv{
+    font-size: 30px;
+}
+
+.education{
+    border-radius: 5px;
+    width: 300px;
+    border: 1px solid #9c74ee;
+}
+
+#education{
+    margin: 20px;
+    margin-top: 30px;
+    padding-left: 50px;
+}
+
+#edu{
+    box-sizing: border-box;
+    border: none;
+    width: 300px;
+    position: relative;
+    bottom: 3px;
+}
+
+#edu:focus{
+    outline: none;
+}
+
+.save2{
+    margin-left: 473px;
+    margin-top: 50px;
+}
+
+.save2 button{
+    box-sizing: border-box;
+    border: 1px solid #9c74ee;
+    background-color: #9c74ee;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    font-family: "Noto Sans KR", sans-serif;
+    height: 50px;
+    cursor: pointer;
 }
