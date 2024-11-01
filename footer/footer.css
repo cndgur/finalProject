@@ -6,13 +6,13 @@ body{
     background-color: #f8fafc;
 }
 
-ul, li{
+.footer_title, .footer_content{
     list-style: none;
     display: inline;
     font-size: 12px;
 }
 
-ul{
+.footer_title{
     display: flex;
     margin: 10px auto 0;
     width: 1260px;
@@ -38,15 +38,15 @@ ul{
     height: 100px;
 }
 
-p{
+.content{
     font-size: 12px;
 }
 
-a{
+.btn{
     text-decoration-line: none;
     color:gray
 }
 
-a:hover{
+.btn:hover{
     color : #4e21a8;
 }

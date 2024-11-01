@@ -81,7 +81,7 @@
                 <legend id="Education_Lv">학력</legend>
                 <div id="education">
                     <fieldset class="education">
-                        <legend>최종학력</legend>
+                        <legend id="educ">최종학력</legend>
                         <select name="education" id="edu">
                             <option disabled hidden selected>
                                 최종학력을 선택해주세요.
@@ -96,11 +96,111 @@
                 </div>
             </fieldset>
         </div>
-        <div class="skill">
+        <div class="sk">
             <fieldset class="skill_Lv">
                 <legend id="Skill_Lv">스킬</legend>
-                <div class="Skill">
+                <div id="Skill">
+                    <fieldset class="skill">
+                        <legend id="skl">스킬</legend>
+                        <input type="text" class="inputskill" placeholder="툴/직무역량/소트스킬을 입력해주세요">
+                    </fieldset>
+                        <button id="btn_skill">추가하기</button>
+                </div>
+                <div class="addskill">
+                    <div id="dlf">MySQL | x</div>
+                </div>
+            </fieldset>
+        </div>
+        <div class="career">
+            <fieldset class="career_Lv">
+                <legend id="career_title">경력</legend>
+                <div class="career_inner">
+                    <fieldset class="car_comtitle">
+                        <legend>회사명</legend>
+                        <input type="text">
+                    </fieldset>
+                    <fieldset class="car_enterdate">
+                        <legend>입사년월</legend>
+                        <input type="date">
+                    </fieldset>
+                    <fieldset class="car_retiredate">
+                        <legend>퇴사년월</legend>
+                        <input type="date">
+                    </fieldset>
+                    <div class="career_check">
+                        <label class="car_checked">재직중</label>
+                          <input type="checkbox">
+                    </div>
+                </div>
+                <div class="career_inner2">
+                    <fieldset class="car_roll">
+                        <legend>직무</legend>
+                        <input type="text">
+                    </fieldset>
+                    <fieldset class="car_department">
+                        <legend>근무부서</legend>
+                        <input type="text">
+                    </fieldset>
+                    <fieldset class="car_position">
+                        <legend>직급/직책</legend>
+                        <input type="text">
+                    </fieldset>
+                </div>
+                <div class="career_inner3">
+                    <fieldset class="car">
+                        <legend>담당업무</legend>
+                        <textarea name="career_contents" id="car_content" placeholder="담당업무를 입력해주세요.
 
+- 진행한 업무를 다 적기 보다는 경력사항 별로 중요한 내용만 엄선해서 작성하는 것이 중요합니다. 
+
+- 담당한 업무 내용을 요약해서 작성해보세요! 
+
+- 경력별 프로젝트 내용을 적을 경우, 역학/팀구성/기여도/성과를 기준으로 요약해서 작성해보세요!"></textarea>
+                    </fieldset>
+                </div>
+            </fieldset>
+        </div>
+        <div class="experience">
+            <fieldset class="EXP">
+                <legend id="epr_title">활동/경력/교육</legend>
+                <div class="experience_inner">
+                    <fieldset class="EXP_title">
+                        <legend>활동구분선택</legend>
+                        <select name="education" id="edu">
+                            <option disabled hidden selected>
+                                활동구분선택
+                              </option>
+                            <option value="">교내활동</option>
+                            <option value="">인턴</option>
+                            <option value="">자원봉사</option>
+                            <option value="">동아리</option>
+                            <option value="">아르바이트</option>
+                            <option value="">사회활동</option>
+                            <option value="">수행과제</option>
+                            <option value="">해외연수</option>
+                            <option value="">교육이수내역</option>
+                        </select>
+                    </fieldset>
+                    <fieldset class="location_title">
+                        <legend>기관/장소명</legend>
+                        <input type="text">
+                    </fieldset>
+                </div>
+                <div class="experience_inner2">
+                    <fieldset class="start_date">
+                        <legend>시작년월</legend>
+                        <input type="date">
+                    </fieldset>
+                    <fieldset class="end_date">
+                        <legend>종료년월</legend>
+                        <input type="date">
+                    </fieldset>
+                </div>
+                <div class="experience_inner3">
+                    <fieldset class="exp_contents">
+                        <legend>활동설명</legend>
+                        <textarea name="exp_content" id="exp_content" placeholder="경험/활동 상세내용 입력"></textarea>
+                    </fieldset>
                 </div>
             </fieldset>
         </div>
